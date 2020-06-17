@@ -6,9 +6,14 @@
         <script>
             $(document).ready(function()
             {
-                console.log(
-                        $("#fname").val()
-                    );
+                //console.log(
+                        //$("#fname").val()
+            
+                    //);
+                $("#button").click(function()
+                {
+                    console.log("Submitted!")
+                });    
                     
             });
         </script>
@@ -84,7 +89,7 @@
                     <option value="2020">2020</option>
                 <select>
             </p>
-            <button type="button">Submit</button>
+            <button type="button" id="button">Submit</button>
         </form>
 
 
