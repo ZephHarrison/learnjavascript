@@ -8,4 +8,5 @@
 * [X] repository branching
 * [X] strings vs variable concatonation
 * [X] event binding
-* [ ] essential repository commands: merge
+* [ ] essential repository commands: pull with changes. no merge conflict
+* [ ] pull with changes, merge conflict
